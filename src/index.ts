@@ -93,3 +93,10 @@ let devolverMayorPromedio = (
   }
   return mayor;
 };
+
+devolverMayorPromedio(promedio1, promedio2, promedio3);
+
+console.log(
+  "El mayor promedio es " +
+    devolverMayorPromedio(promedio1, promedio2, promedio3)
+);
